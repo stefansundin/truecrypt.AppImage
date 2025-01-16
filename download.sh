@@ -1,20 +1,22 @@
 #!/bin/bash -e
 
-if [[ ! -f appimagetool-x86_64.AppImage ]]; then
+if [[ ! -f appimagetool-aarch64.AppImage ]]; then
   echo "Downloading appimagetool"
-  wget https://github.com/AppImage/appimagetool/releases/download/1.9.0/appimagetool-x86_64.AppImage
-  chmod +x appimagetool-x86_64.AppImage
+  wget https://github.com/AppImage/appimagetool/releases/download/1.9.0/appimagetool-aarch64.AppImage
+  chmod +x appimagetool-aarch64.AppImage
 fi
 
 mkdir -p dependencies
 cd dependencies
 
-cat ../dependencies.txt | while read url; do
+cat ../dependencies.txt | while read url filename; do
   if [[ "$url" == "" || "${url:0:1}" == "#" ]]; then
     continue
   fi
 
-  filename=$(basename "$url")
+  if [[ -z "$filename" ]]; then
+    filename=$(basename "$url")
+  fi
 
   if [[ ! -f "$filename" ]]; then
     echo

@@ -1,12 +1,15 @@
-https://launchpad.net/~stefansundin/+archive/ubuntu/truecrypt/+files/truecrypt_7.1a-16_amd64.deb
+https://launchpad.net/~stefansundin/+archive/ubuntu/truecrypt/+files/truecrypt_7.1a-16_arm64.deb
 
 # Using wxWidgets 3.2.5 from oracular to fix issue present in version 3.2.4. https://github.com/wxWidgets/wxWidgets/issues/24081
-https://mirrors.kernel.org/ubuntu/pool/universe/w/wxwidgets3.2/libwxbase3.2-1t64_3.2.5+dfsg-1_amd64.deb
-https://mirrors.kernel.org/ubuntu/pool/universe/w/wxwidgets3.2/libwxgtk3.2-1t64_3.2.5+dfsg-1_amd64.deb
+https://ports.ubuntu.com/ubuntu-ports/pool/universe/w/wxwidgets3.2/libwxbase3.2-1t64_3.2.5+dfsg-1_arm64.deb
+https://ports.ubuntu.com/ubuntu-ports/pool/universe/w/wxwidgets3.2/libwxgtk3.2-1t64_3.2.5+dfsg-1_arm64.deb
 
 # The rest of the dependencies are from noble:
-https://mirrors.kernel.org/ubuntu/pool/main/liba/libayatana-appindicator/libayatana-appindicator3-1_0.5.93-1build3_amd64.deb
-https://mirrors.kernel.org/ubuntu/pool/main/liba/libayatana-indicator/libayatana-indicator3-7_0.9.4-1build1_amd64.deb
-https://mirrors.kernel.org/ubuntu/pool/main/a/ayatana-ido/libayatana-ido3-0.4-0_0.10.1-1build2_amd64.deb
-https://security.ubuntu.com/ubuntu/pool/main/g/glib2.0/libglib2.0-0t64_2.80.0-6ubuntu3.2_amd64.deb
-https://mirrors.kernel.org/ubuntu/pool/main/libs/libselinux/libselinux1_3.5-2ubuntu2_amd64.deb
+https://ports.ubuntu.com/ubuntu-ports/pool/main/liba/libayatana-appindicator/libayatana-appindicator3-1_0.5.93-1build3_arm64.deb
+https://ports.ubuntu.com/ubuntu-ports/pool/main/liba/libayatana-indicator/libayatana-indicator3-7_0.9.4-1build1_arm64.deb
+https://ports.ubuntu.com/ubuntu-ports/pool/main/a/ayatana-ido/libayatana-ido3-0.4-0_0.10.1-1build2_arm64.deb
+https://ports.ubuntu.com/ubuntu-ports/pool/main/g/glib2.0/libglib2.0-0t64_2.80.0-6ubuntu3.2_arm64.deb
+https://ports.ubuntu.com/ubuntu-ports/pool/main/libs/libselinux/libselinux1_3.5-2ubuntu2_arm64.deb
+
+# Add to the x86_64 build?
+https://ports.ubuntu.com/ubuntu-ports/pool/main/libj/libjpeg-turbo/libjpeg-turbo8_2.1.5-2ubuntu2_arm64.deb

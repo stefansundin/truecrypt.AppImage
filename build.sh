@@ -18,4 +18,4 @@ echo
 echo "Building AppImage"
 echo
 
-./appimagetool-x86_64.AppImage truecrypt.AppDir TrueCrypt-7.1a-16-x86_64.AppImage
+./appimagetool-aarch64.AppImage truecrypt.AppDir TrueCrypt-7.1a-16-arm64.AppImage
