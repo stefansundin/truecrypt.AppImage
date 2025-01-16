@@ -3,6 +3,8 @@ AppImage of TrueCrypt 7.1a, using binary from [truecrypt.deb](https://github.com
 To build, run:
 
 ```shell
+sudo apt install binutils wget desktop-file-utils zsync fuse
+
 ./download.sh
 ./build.sh
 ```

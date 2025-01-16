@@ -9,12 +9,14 @@ fi
 mkdir -p dependencies
 cd dependencies
 
-cat ../dependencies.txt | while read url; do
+cat ../dependencies.txt | while read url filename; do
   if [[ "$url" == "" || "${url:0:1}" == "#" ]]; then
     continue
   fi
 
-  filename=$(basename "$url")
+  if [[ -z "$filename" ]]; then
+    filename=$(basename "$url")
+  fi
 
   if [[ ! -f "$filename" ]]; then
     echo
