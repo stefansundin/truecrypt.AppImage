@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=TrueCrypt
+Comment=On-the-fly file encryption software
+Categories=Utility;
+Icon=truecrypt
+Exec=truecrypt
+Terminal=false
+MimeType=application/x-truecrypt

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+export PATH="$(dirname $0)/usr/bin:$PATH"
+export LD_LIBRARY_PATH="$(dirname $0)/usr/lib/x86_64-linux-gnu:$LD_LIBRARY_PATH"
+
+exec truecrypt "$@"
