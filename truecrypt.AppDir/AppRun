@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-appdir="$(dirname $0)"
-export PATH="$appdir/usr/bin:$PATH"
-export LD_LIBRARY_PATH="$appdir/lib/aarch64-linux-gnu:$appdir/usr/lib/aarch64-linux-gnu:$LD_LIBRARY_PATH"
+export PATH="$APPDIR/usr/bin:$PATH"
+export LD_LIBRARY_PATH="$APPDIR/lib/aarch64-linux-gnu:$APPDIR/usr/lib/aarch64-linux-gnu:$LD_LIBRARY_PATH"
 
 exec truecrypt "$@"

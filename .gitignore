@@ -1,8 +1,10 @@
 /dependencies
 *.AppImage
+*.tc
 
 /truecrypt.AppDir/.DirIcon
 /truecrypt.AppDir/etc
+/truecrypt.AppDir/lib
 /truecrypt.AppDir/sbin
 /truecrypt.AppDir/usr
 /truecrypt.AppDir/truecrypt.xpm
